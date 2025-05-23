@@ -66,7 +66,7 @@
       left: 50%;
       transform: translate(-50%, 800px);
       animation: errorAnim 1.5s ease forwards;
-      font-size: 20vw;
+      font-size: 50vw;
       font-weight: 900;
       white-space: nowrap;
       text-align: center;
@@ -85,7 +85,19 @@
       }
 
       .error {
-        font-size: 25vw;
+        font-size: 15vw;
+      }
+
+      .img {
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        max-width: 1920px;
+        animation: catAnim 1.5s ease forwards;
+    }
+    @keyframes errorAnim {
+      100% {
+        transform: translate(-50%, -10vh);
       }
     }
   </style>
